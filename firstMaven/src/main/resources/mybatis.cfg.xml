@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!DOCTYPE configuration PUBLIC   
+    "-//mybatis.org//DTD Config 3.0//EN"   
+    "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+
+<configuration>
+
+	<!--mybatis连接数据库 <properties resource="jdbc.properties" /> <environments 
+		default = "development" > <environment id="development" > <transactionManager 
+		type="JDBC" /> <dataSource type="POOLED" > <property name="driver" value= 
+		"${driver}" /> <property name="url" value= "${url}" /> <property name="username" 
+		value= "${username}"/> <property name="password" value= "${password}"/> </dataSource> 
+		</environment> </environments> -->
+		<typeAliases>
+			<typeAlias type="com.renben.hros.form.model.TableField" alias="tableField"/>
+		</typeAliases>
+		
+		<!-- mappers>
+			<mapper resource="com/renben/hros/UserMaper.xml" />
+		</mappers-->
+
+</configuration>
